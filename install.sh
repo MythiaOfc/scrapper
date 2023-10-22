@@ -30,7 +30,7 @@ installTheme(){
 
     cd /var/www/pterodactyl
     yarn build:production
-    sudo php artisan optimize:clear
+    php artisan optimize:clear
 
 
 }
@@ -58,7 +58,7 @@ restoreBackUp(){
 
     cd /var/www/pterodactyl
     yarn build:production
-    sudo php artisan optimize:clear
+    php artisan optimize:clear
 }
 echo "Copyright (c) 2022 Angelillo15 | angelillo15.es"
 echo "This program is free software: you can redistribute it and/or modify"
